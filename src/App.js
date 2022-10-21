@@ -28,7 +28,7 @@ componentDidMount(){
         <span className="loader__text">Загрузка...</span>
       </div> ) : (
         <div className="movies">
-        { movies.map(movie => (
+            {movies.map(movie => (
                  <Movie 
                    key={movie.id} 
                    id={movie.id} 
